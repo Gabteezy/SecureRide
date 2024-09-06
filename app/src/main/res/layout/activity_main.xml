@@ -1,0 +1,103 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="20dp"
+    tools:context=".admin.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:nestedScrollingEnabled="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+
+            <ImageView
+                android:id="@+id/logoImageView"
+                android:layout_width="match_parent"
+                android:layout_marginTop="70dp"
+                android:layout_height="150dp"
+                android:src="@drawable/logo"
+                android:layout_marginBottom="28dp" />
+
+            <TextView
+                android:id="@+id/welcomeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="Welcome to "
+                android:textSize="32sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/welcomeTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-50dp"
+                android:text="SecuRide "
+                android:textColor="@color/green"
+                android:textSize="32sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/descriptionTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Your Premier Solution for Safe and Convenient Tricycle Booking. "
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/descriptionTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Experience peace of mind with real-time tracking and a network of verified drivers dedicated to providing a reliable and secure commuting experience."
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_Signup"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="150dp"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_button"
+                android:text="Sign up"
+                android:textSize="16dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_Login"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="-48dp"
+                android:textColor="@color/black"
+                android:background="@drawable/rounded_login"
+                android:text="Login"
+                android:textSize="16dp"/>
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
