@@ -5,4 +5,14 @@
     <color name="green">#46B47F</color>
     <color name="transparent">#00000000</color>
     <color name="gray">#808080</color>
+    <color name="blue">#215479</color>
+    <!-- Primary Color -->
+    <color name="primaryColor">#00B26F</color>
+    <!-- Background color for the dashboard -->
+    <color name="dashboardBackground">#E9F6EF</color>
+    <!-- Text Colors -->
+    <color name="textPrimary">#000000</color>
+    <color name="textSecondary">#4CAF50</color>
+    <!-- Card background -->
+    <color name="cardBackground">#FFFFFF</color>
 </resources>

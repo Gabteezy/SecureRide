@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">secureride</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="app_client_id">249177641825-cbsevbhsjsbavjochhef438rqbpsnnfq.apps.googleusercontent.com</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_commuter_dashboard">CommuterDashboard</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="google_maps_key">AIzaSyCwoiOBUAcdDQrL7D0HS_c3LEPoDX2srHY</string>
 </resources>

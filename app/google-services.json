@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "510702480426",
+    "project_id": "ride-3b778",
+    "storage_bucket": "ride-3b778.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510702480426:android:1112638e56950a43c52753",
+        "android_client_info": {
+          "package_name": "com.example.secureride"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0wXRffnqi6QbHPG2bSdaa8GxNXngwDFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

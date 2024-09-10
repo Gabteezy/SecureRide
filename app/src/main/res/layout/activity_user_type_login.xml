@@ -6,16 +6,7 @@
     android:background="@color/white"
     tools:context=".admin.UserTypeLogin">
 
-    <TextView
-        android:id="@+id/btnBack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/vector_back"
-        android:gravity="start"
-        android:textColor="@color/white"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="7dp" />
+
 
 
     <ScrollView
@@ -35,6 +26,16 @@
             android:orientation="vertical"
             android:padding="20dp"
             tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/vector_back"
+                android:gravity="start"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="7dp" />
 
 
             <ImageView
@@ -183,7 +184,7 @@
                 android:layout_marginStart="230dp"
                 android:layout_marginTop="-18dp"
                 android:text="Sign up"
-                android:textColor="@color/green"
+                android:textColor="@color/blue"
                 android:textSize="12sp"
                 android:textStyle="bold|normal"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -192,7 +193,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn_Admin"
+                android:id="@+id/btnAdmin"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="150dp"
@@ -202,7 +203,7 @@
                 android:textSize="16dp"/>
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn_Commuter"
+                android:id="@+id/btnCommuter"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="116dp"
@@ -213,7 +214,7 @@
                 android:textSize="16dp"/>
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn_Driver"
+                android:id="@+id/btnDriver"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="232dp"

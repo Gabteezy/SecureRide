@@ -10,7 +10,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:nestedScrollingEnabled="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -22,6 +22,8 @@
             android:orientation="vertical"
             android:paddingStart="20dp"
             android:paddingEnd="20dp">
+
+            <!-- Existing views here -->
 
             <ImageView
                 android:id="@+id/logoImageView"
@@ -93,11 +95,19 @@
                 android:background="@drawable/rounded_login"
                 android:text="Login"
                 android:textSize="16dp"/>
-
-
-
         </androidx.appcompat.widget.LinearLayoutCompat>
-
     </ScrollView>
+
+    <!-- ProgressBar and Prompt -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
